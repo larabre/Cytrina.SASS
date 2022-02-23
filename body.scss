@@ -1,0 +1,34 @@
+
+body {
+    margin: 0px;
+    padding-inline-start: 0px;
+    font-family: Helvetica, sans-serif; 
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .bannerContainer {
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+
+    .bannerIconContainer {
+        padding: 20px 0px;
+    }
+
+    .navIcon {
+        display: none;
+    }
+    
+    .mainFooterContainer {
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+
+    .contactoColumna1 {
+        display: none;
+    }
+}
