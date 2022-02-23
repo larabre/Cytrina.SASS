@@ -29,3 +29,16 @@
         }
     }
 }
+$menusections: (
+    inicio: 1px,
+    productos: 2px,
+    mayoristas: 3px,
+    faqs: 5px,
+    contacto: 4px,
+);
+@each $nombres, $radius in $menusections {
+    .btn--#{$nombres} {
+        border-radius: $radius;
+    }
+ }
+ 
